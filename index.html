@@ -1,0 +1,52 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>PatternPick – Click-to-Scrape to CSV</title>
+<meta name="description" content="Turn any list, grid or table into a clean spreadsheet in three clicks. Free, local, with an accuracy report.">
+<style>
+  :root{--fg:#18181b;--muted:#52525b;--bg:#fff;--card:#fafafa;--accent:#6d28d9;--line:#e4e4e7}
+  @media (prefers-color-scheme:dark){:root{--fg:#f4f4f5;--muted:#a1a1aa;--bg:#18181b;--card:#27272a;--accent:#a78bfa;--line:#3f3f46}}
+  body{margin:0;background:var(--bg);color:var(--fg);font:16px/1.6 system-ui,-apple-system,"Segoe UI",Roboto,sans-serif}
+  main{max-width:860px;margin:0 auto;padding:48px 16px 64px}
+  h1{font-size:clamp(28px,5vw,40px);line-height:1.15;margin:0 0 12px}
+  .lead{font-size:18px;color:var(--muted);max-width:620px}
+  .steps,.grid{display:grid;gap:12px;margin:24px 0}
+  .steps{grid-template-columns:repeat(auto-fit,minmax(220px,1fr))}
+  .grid{grid-template-columns:repeat(auto-fit,minmax(250px,1fr))}
+  .card{background:var(--card);border:1px solid var(--line);border-radius:12px;padding:16px}
+  .card b{display:block;margin-bottom:4px}
+  .n{display:inline-block;width:26px;height:26px;border-radius:50%;background:var(--accent);color:#fff;text-align:center;font-weight:700;line-height:26px;margin-right:6px}
+  h2{font-size:20px;margin-top:40px}
+  a{color:var(--accent)} footer{margin-top:48px;color:var(--muted);font-size:14px}
+</style>
+</head>
+<body>
+<main>
+<h1>PatternPick</h1>
+<p class="lead">Turn any list, grid or table on a web page into a clean spreadsheet in three clicks. No code, no account, no cloud — and an accuracy report that tells you whether your data is complete.</p>
+
+<div class="steps">
+  <div class="card"><span class="n">1</span><b style="display:inline">Auto-detect</b><p>Or click a title, price or image — PatternPick finds the repeating pattern.</p></div>
+  <div class="card"><span class="n">2</span><b style="display:inline">Collect</b><p>This page, infinite scroll, a “Load more” / “Next” button, or live capture while you scroll.</p></div>
+  <div class="card"><span class="n">3</span><b style="display:inline">Export</b><p>CSV, JSON, or paste straight into Google Sheets.</p></div>
+</div>
+
+<h2>Why PatternPick</h2>
+<div class="grid">
+  <div class="card"><b>Accuracy report</b>Rows collected vs items seen, duplicates removed, empty items skipped, and how complete each column is.</div>
+  <div class="card"><b>Clean columns</b>Junk columns removed, readable names (title, price, rating…), full text even when a site shortens it, prices merged when a site splits them.</div>
+  <div class="card"><b>Privacy built in</b>Emails and phone numbers are detected and masked on export by default.</div>
+  <div class="card"><b>100% local</b>No servers, no analytics, no sign-up. Your data never leaves your browser.</div>
+  <div class="card"><b>Polite by design</b>At least one second between page loads, with page and row limits.</div>
+  <div class="card"><b>Crash-safe</b>Progress is saved on your device, so a reload doesn't lose your rows.</div>
+</div>
+
+<h2>Use it responsibly</h2>
+<p>Only collect data you are permitted to use. Respect each website's Terms of Service and privacy laws such as the PDPA and GDPR.</p>
+
+<footer><a href="privacy.html">Privacy policy</a> · PatternPick for Chrome</footer>
+</main>
+</body>
+</html>
